@@ -1,8 +1,7 @@
 class getInput:
-    def gettingVales(self, fname, lname,temp):
-        print("user agreement:",fname)
-        print("la name",lname)
+    def gettingVales(self, fname, lname, getValuesToGi):
+        #print("user agreement:",fname)
+        #print("la name",lname)
 
-        temp= fname.get()+lname.get()
-        #gulabel3 =temp
-        print("total val",temp)
+        total =int(fname)+int(lname)
+        getValuesToGi.set(total)
